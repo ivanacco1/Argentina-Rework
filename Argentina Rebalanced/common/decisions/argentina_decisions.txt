@@ -1,0 +1,31 @@
+
+law_1420_decision = {
+
+
+	is_shown = {
+		
+		c:ARG = ROOT
+		
+		NOT = { has_variable = ley_1420_taken }
+	}
+
+	possible = {
+		
+		has_technology_researched = dialectics
+	}
+	
+	when_taken = {
+		trigger_event = {
+			id = ley_1420.1
+			popup = yes
+		}
+		
+		#TUTORIAL: We need to set a variable when the decision is taken, that way it only fires once
+		set_variable = {
+			name = ley_1420_taken
+		}
+		
+		#TUTORIAL: I suggest you read through vanilla events and decisions for other effects
+		
+	}
+}

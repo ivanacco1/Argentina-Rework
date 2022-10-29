@@ -1,0 +1,39 @@
+﻿
+namespace = ley_1420
+
+ley_1420.1 = {
+
+
+	type = country_event
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	title = law_1420.1.t
+	desc = law_1420.1.d
+
+	#TUTORIAL: Do not change
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+	
+		name = law_1420.1.a
+		
+		#default_option = yes
+		
+		add_modifier = {
+            name = law_1420_modifier
+			
+            months = -1
+        }
+		
+	}
+}

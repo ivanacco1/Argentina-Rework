@@ -1,0 +1,8 @@
+﻿state_trait_andes = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+	
+	modifier = {
+		state_construction_mult = -0.1
+		state_infrastructure_mult = -0.1
+	}
+}
